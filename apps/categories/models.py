@@ -32,5 +32,8 @@ class SubSubCategory(models.Model):
         verbose_name = 'Sub Sub Category'
         verbose_name_plural = 'Sub Sub Categories'
 
-    def __str__(self):
+    def __unicode__(self):
         return f"{self.subcategory.category.name} -> {self.subcategory.name} -> {self.name}"
+
+    def __str__(self):
+        return self.name
