@@ -421,6 +421,7 @@
       <change beforePath="$PROJECT_DIR$/static/js/vendor/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -472,11 +473,14 @@
       <recent name="$PROJECT_DIR$/apps/store/templates/store/static/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.header.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.main_content.html">
     <configuration name="header.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gsshopbeta/apps/store/templates/store/header.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="header.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Gsshop/apps/store/templates/store/header.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main_content.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gsshopbeta/templates/store/main_content.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Gsshop" type="Python.DjangoServer" factoryName="Django server">
@@ -504,6 +508,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.main_content.html" />
         <item itemvalue="JavaScript Debug.header.html (1)" />
         <item itemvalue="JavaScript Debug.header.html" />
       </list>
@@ -519,7 +524,7 @@
       <updated>1672128883299</updated>
       <workItem from="1672128884576" duration="682000" />
       <workItem from="1672129721374" duration="2711000" />
-      <workItem from="1672136102789" duration="6276000" />
+      <workItem from="1672136102789" duration="7311000" />
     </task>
     <servers />
   </component>

@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>eTrade || Home-06</title>
-    <meta name="robots" content="noindex, follow" />
+    <meta name="robots" content="noindex, follow"/>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
@@ -31,13 +31,40 @@
 
 </head>
 <body>
-    {% include 'store/header.html' %}
+{% include 'store/header.html' %}
 
 
-    {% block content %}
-    {% endblock content %}
+{% include 'store/main_content.html' %}
 
-    {% include 'store/footer.html' %}
+{% block content %}
 
+{% endblock content %}
+
+{% include 'store/footer.html' %}
+
+
+
+
+<!-- Modernizer JS -->
+<script src="../../static/js/vendor/modernizr.min.js"></script>
+<!-- jQuery JS -->
+<script src="../../static/js/vendor/jquery.js"></script>
+<!-- Bootstrap JS -->
+<script src="../../static/js/vendor/popper.min.js"></script>
+<script src="../../static/js/vendor/bootstrap.min.js"></script>
+<script src="../../static/js/vendor/slick.min.js"></script>
+<script src="../../static/js/vendor/js.cookie.js"></script>
+<!-- <script src="assets/js/vendor/jquery.style.switcher.js"></script> -->
+<script src="../../static/js/vendor/jquery-ui.min.js"></script>
+<script src="../../static/js/vendor/jquery.countdown.min.js"></script>
+<script src="../../static/js/vendor/sal.js"></script>
+<script src="../../static/js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="../../static/js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="../../static/js/vendor/isotope.pkgd.min.js"></script>
+<script src="../../static/js/vendor/counterup.js"></script>
+<script src="../../static/js/vendor/waypoints.min.js"></script>
+
+<!-- Main JS -->
+<script src="../../static/js/main.js"></script>
 </body>
 </html>
