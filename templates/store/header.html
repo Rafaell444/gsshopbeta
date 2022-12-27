@@ -1,37 +1,9 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-
-<!-- Mirrored from new.axilthemes.com/demo/template/etrade/index-6.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Dec 2022 13:11:06 GMT -->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>eTrade || Home-06</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="static/images/favicon.png">
-
-    <!-- CSS
-    ============================================ -->
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="static/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="static/css/vendor/font-awesome.css">
-    <link rel="stylesheet" href="static/css/vendor/flaticon/flaticon.css">
-    <link rel="stylesheet" href="static/css/vendor/slick.css">
-    <link rel="stylesheet" href="static/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="static/css/vendor/jquery-ui.min.css">
-    <link rel="stylesheet" href="static/css/vendor/sal.css">
-    <link rel="stylesheet" href="static/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="static/css/vendor/base.css">
-    <link rel="stylesheet" href="static/css/style.min.css">
-
-</head>
+{% extends 'store/main.html' %}
+{% load static %}
 
 
 <body>
+{% block header %}
     <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 <![endif]-->
@@ -45,10 +17,10 @@
                     <div class="col-lg-2 col-sm-3 col-5">
                         <div class="header-brand">
                             <a href="index-2.html" class="logo logo-dark">
-                                <img src="static/images/logo/logo.png" alt="Site Logo">
+                                <img src="../../static/images/logo/logo.png" alt="Site Logo">
                             </a>
                             <a href="index-2.html" class="logo logo-light">
-                                <img src="static/images/logo/logo-light.png" alt="Site Logo">
+                                <img src="../../static/images/logo/logo-light.png" alt="Site Logo">
                             </a>
                         </div>
                     </div>
@@ -102,7 +74,7 @@
                                 <ul class="nav-menu-list">
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-01.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-01.png" alt="Department"></span>
                                             <span class="menu-text">Fashion</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -148,16 +120,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature1.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature2.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature3.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature4.png" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -167,7 +139,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-02.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-02.png" alt="Department"></span>
                                             <span class="menu-text">Electronics</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -213,16 +185,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature1.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature2.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature3.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature4.png" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -232,7 +204,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-03.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-03.png" alt="Department"></span>
                                             <span class="menu-text">Home Decor</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -278,16 +250,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature1.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature2.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature3.png" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="static/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="../../static/images/product/product-feature4.png" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -297,31 +269,31 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-04.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-04.png" alt="Department"></span>
                                             <span class="menu-text">Medicine</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-05.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-05.png" alt="Department"></span>
                                             <span class="menu-text">Furniture</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-06.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-06.png" alt="Department"></span>
                                             <span class="menu-text">Crafts</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-07.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-07.png" alt="Department"></span>
                                             <span class="menu-text">Accessories</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="static/images/product/categories/cat-08.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="../../static/images/product/categories/cat-08.png" alt="Department"></span>
                                             <span class="menu-text">Camera</span>
                                         </a>
                                     </li>
@@ -336,7 +308,7 @@
                             <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                             <div class="mobile-nav-brand">
                                 <a href="index-2.html" class="logo">
-                                    <img src="static/images/logo/logo.png" alt="Site Logo">
+                                    <img src="../../static/images/logo/logo.png" alt="Site Logo">
                                 </a>
                             </div>
                             <ul class="mainmenu">
@@ -475,7 +447,7 @@
                                             </div>
                                         </div>
                                         <div class="main-slider-thumb">
-                                            <img src="static/images/product/product-9.png" alt="Product">
+                                            <img src="../../static/images/product/product-9.png" alt="Product">
                                         </div>
                                     </div>
                                     <div class="single-slide slick-slide">
@@ -487,7 +459,7 @@
                                             </div>
                                         </div>
                                         <div class="main-slider-thumb">
-                                            <img src="static/images/product/product-8.png" alt="Product">
+                                            <img src="../../static/images/product/product-8.png" alt="Product">
                                         </div>
                                     </div>
                                     <div class="single-slide slick-slide">
@@ -499,7 +471,7 @@
                                             </div>
                                         </div>
                                         <div class="main-slider-thumb">
-                                            <img src="static/images/product/product-7.png" alt="Product">
+                                            <img src="../../static/images/product/product-7.png" alt="Product">
                                         </div>
                                     </div>
                                 </div>
@@ -509,7 +481,7 @@
                             <div class="slider-product-box">
                                 <div class="product-thumb">
                                     <a href="single-product.html">
-                                        <img src="static/images/product/product-41.png" alt="Product">
+                                        <img src="../../static/images/product/product-41.png" alt="Product">
                                     </a>
                                 </div>
                                 <h6 class="title"><a href="single-product.html">Stylish Leather Bag</a></h6>
@@ -531,26 +503,28 @@
     <!-- JS
 ============================================ -->
     <!-- Modernizer JS -->
-    <script src="static/js/vendor/modernizr.min.js"></script>
+    <script src="../../static/js/vendor/modernizr.min.js"></script>
     <!-- jQuery JS -->
-    <script src="static/js/vendor/jquery.js"></script>
+    <script src="../../static/js/vendor/jquery.js"></script>
     <!-- Bootstrap JS -->
-    <script src="static/js/vendor/popper.min.js"></script>
-    <script src="static/js/vendor/bootstrap.min.js"></script>
-    <script src="static/js/vendor/slick.min.js"></script>
-    <script src="static/js/vendor/js.cookie.js"></script>
+    <script src="../../static/js/vendor/popper.min.js"></script>
+    <script src="../../static/js/vendor/bootstrap.min.js"></script>
+    <script src="../../static/js/vendor/slick.min.js"></script>
+    <script src="../../static/js/vendor/js.cookie.js"></script>
     <!-- <script src="assets/js/vendor/jquery.style.switcher.js"></script> -->
-    <script src="static/js/vendor/jquery-ui.min.js"></script>
-    <script src="static/js/vendor/jquery.countdown.min.js"></script>
-    <script src="static/js/vendor/sal.js"></script>
-    <script src="static/js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="static/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="static/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="static/js/vendor/counterup.js"></script>
-    <script src="static/js/vendor/waypoints.min.js"></script>
+    <script src="../../static/js/vendor/jquery-ui.min.js"></script>
+    <script src="../../static/js/vendor/jquery.countdown.min.js"></script>
+    <script src="../../static/js/vendor/sal.js"></script>
+    <script src="../../static/js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="../../static/js/vendor/imagesloaded.pkgd.min.js"></script>
+    <script src="../../static/js/vendor/isotope.pkgd.min.js"></script>
+    <script src="../../static/js/vendor/counterup.js"></script>
+    <script src="../../static/js/vendor/waypoints.min.js"></script>
 
     <!-- Main JS -->
-    <script src="static/js/main.js"></script>
+    <script src="../../static/js/main.js"></script>
+
+{% endblock header %}
 
 </body>
 

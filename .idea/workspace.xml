@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27a62904-8c78-456a-94fd-0cc56801b5c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/flaticon/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/flaticon/flaticon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/flaticon/flaticon2916.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/flaticon/flaticon2916.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/flaticon/flaticon2916.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/flaticon/flaticon2916.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/flaticon/flaticon2916.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/flaticon/flaticon2916.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/flaticon/flaticon2916.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/flaticon/flaticon2916.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/flaticon/flaticon2916.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/flaticon/flaticon2916.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-bg_glass_75_d0e5f5_1x400.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-bg_glass_75_d0e5f5_1x400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-bg_glass_85_dfeffc_1x400.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-bg_glass_85_dfeffc_1x400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-bg_glass_95_fef1ec_1x400.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-bg_glass_95_fef1ec_1x400.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-bg_gloss-wave_55_5c9ccc_500x100.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-bg_gloss-wave_55_5c9ccc_500x100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-bg_inset-hard_100_f5f8f9_1x100.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-bg_inset-hard_100_f5f8f9_1x100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-bg_inset-hard_100_fcfdfd_1x100.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-bg_inset-hard_100_fcfdfd_1x100.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_217bc0_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_217bc0_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_2e83ff_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_2e83ff_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_469bdd_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_469bdd_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_6da8d5_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_6da8d5_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_cd0a0a_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_cd0a0a_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_d8e7f3_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_d8e7f3_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/images/ui-icons_f9bd01_256x240.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/images/ui-icons_f9bd01_256x240.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/sal.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/sal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/slick-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/slick-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/about-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/about-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/shape-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/shape-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/shape-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/shape-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/about/shape-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/about/shape-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/axil_file_example.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/axil_file_example.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-16.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-17.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-18.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-18.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-19.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-19.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-20.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-20.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/bg/bg-image-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/bg/bg-image-9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/author-image-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/author-image-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/author-image-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/author-image-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/author-image-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/author-image-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/author-image-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/author-image-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/author-image-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/author-image-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-single-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-single-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-single-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-single-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-single-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-single-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-single-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-single-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/blog/blog-single.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/blog/blog-single.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/arrow-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/arrow-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/arrow-icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/arrow-icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/cart/cart-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/cart/cart-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/cart/cart-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/cart/cart-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/cart/cart-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/cart/cart-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/cart/cart-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/cart/cart-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/cart/cart-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/cart/cart-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/cart/cart-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/cart/cart-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/choose.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/choose.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/dancing.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/dancing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/protection.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/protection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/purchasing.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/purchasing.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/rate.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/rate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/icons/service9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/icons/service9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/logo/logo-large.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo/logo-large.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/logo/logo-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo/logo-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/logo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/app-store.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/app-store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/author1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/author1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/author2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/author2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/author3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/author3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/author4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/author4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/campaign-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/campaign-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/campaign-bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/campaign-bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/campaign-bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/campaign-bg3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/payment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/play-store.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/play-store.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/popup-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/popup-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/qr.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/qr.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/shape-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/shape-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/others/shape-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/others/shape-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/banner-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/banner-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/banner-mockup.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/banner-mockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/bs5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/bs5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/comming-soon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/comming-soon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/css.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/css.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/cta-mockup.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/cta-mockup.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/feature-icon-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/feature-icon-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/feature-icon-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/feature-icon-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/feature-icon-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/feature-icon-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/feature-icon-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/feature-icon-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/feature-icon-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/feature-icon-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/feature-icon-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/feature-icon-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/home-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/home-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/home-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/home-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/home-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/home-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/home-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/home-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/home-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/home-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/home-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/home-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/html.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/jquery.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/jquery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/scss.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/scss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/shop-sidebar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/shop-sidebar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/shop.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/shop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/preview/variation-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/preview/variation-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/author1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/author1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/cat-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/cat-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/elec-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/elec-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/furni-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/furni-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/categories/jewelry-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/categories/jewelry-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/electric/product-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/electric/product-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-19.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/fashion/product-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/fashion/product-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-19.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-23.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-24.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-25.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/furniture/product-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/furniture/product-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/jewellery/product-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/jewellery/product-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-29.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-30.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-31.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-33.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/nft/product-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/nft/product-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/poster/poster-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/poster/poster-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-17.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-18.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-19.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-20.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-21.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-22.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-38.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-38.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-40.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-41.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-45.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-46.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-47.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-48.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-06.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-big-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-big-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-feature1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-feature1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-feature2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-feature2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-feature3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-feature3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-feature4.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-feature4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/icon-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/icon-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/icon-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/icon-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/icon-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/icon-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-05.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-07.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-07.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-08.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-09.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-09.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-13.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-14.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/product/product-thumb/thumb-15.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/product/product-thumb/thumb-15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/send-mail.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/send-mail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/team/team-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team/team-01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/team/team-02.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team/team-02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/team/team-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team/team-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/team/team-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/team/team-04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/testimonial/image-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/testimonial/image-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/testimonial/image-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/testimonial/image-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/images/testimonial/image-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/testimonial/image-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/counterup.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/counterup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/imagesloaded.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/isotope.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/isotope.pkgd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/jquery.countdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/jquery.magnific-popup.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/js.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/js.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/sal.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/sal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/arrow-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/placeholder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vendor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JUNpLOZTOzQFA2QadceNz3sdm4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/mgubuntu/PycharmProjects/gsshopbeta",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/apps/store/templates/store/static" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/apps/store/templates/store/static/images" />
+      <recent name="$PROJECT_DIR$/apps/store/templates/store/static/css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.header.html (1)">
+    <configuration name="header.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/gsshopbeta/apps/store/templates/store/header.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="header.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Gsshop/apps/store/templates/store/header.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Gsshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Gsshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.header.html (1)" />
+        <item itemvalue="JavaScript Debug.header.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27a62904-8c78-456a-94fd-0cc56801b5c4" name="Changes" comment="" />
+      <created>1672128883299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672128883299</updated>
+      <workItem from="1672128884576" duration="682000" />
+      <workItem from="1672129721374" duration="2711000" />
+      <workItem from="1672136102789" duration="3843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
