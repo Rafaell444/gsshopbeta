@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27a62904-8c78-456a-94fd-0cc56801b5c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/store/templates/store/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/base.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/css/vendor/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/vendor/bootstrap.min.css" afterDir="false" />
@@ -409,6 +407,7 @@
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/slick.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/waypoints.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/store/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
@@ -420,6 +419,9 @@
       <change beforePath="$PROJECT_DIR$/static/js/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/vendor/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,9 +431,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -517,7 +519,7 @@
       <updated>1672128883299</updated>
       <workItem from="1672128884576" duration="682000" />
       <workItem from="1672129721374" duration="2711000" />
-      <workItem from="1672136102789" duration="3843000" />
+      <workItem from="1672136102789" duration="5615000" />
     </task>
     <servers />
   </component>
