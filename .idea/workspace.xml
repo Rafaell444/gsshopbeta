@@ -407,6 +407,7 @@
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/slick.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/static/js/vendor/waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/waypoints.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/store.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/store/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/store/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/store/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/__init__.py" beforeDir="false" />
@@ -420,7 +421,6 @@
       <change beforePath="$PROJECT_DIR$/static/js/vendor/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/vendor/modernizr.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/store/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -519,7 +519,7 @@
       <updated>1672128883299</updated>
       <workItem from="1672128884576" duration="682000" />
       <workItem from="1672129721374" duration="2711000" />
-      <workItem from="1672136102789" duration="5615000" />
+      <workItem from="1672136102789" duration="6276000" />
     </task>
     <servers />
   </component>
