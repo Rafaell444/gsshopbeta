@@ -1,3 +1,4 @@
+{% load static %}
 <div class="axil-categorie-area bg-color-white axil-section-gapcommon">
     <div class="container">
         <div class="section-title-wrapper">
@@ -5,18 +6,18 @@
             <h2 class="title">Browse by Category</h2>
         </div>
         <div class="categrie-product-activation slick-layout-wrapper--15 axil-slick-arrow  arrow-top-slide">
-        {% for main_category in main_categories %}
-            <div class="slick-single-layout">
-                <div class="categrie-product">
-                    <a href="#">
-                        <img class="img-fluid" src="../../static/images/product/categories/elec-1.png"
-                             alt="product categorie">
-                        <h6 class="cat-title">{{ main_category.name }}</h6>
-                    </a>
-                </div>
+            {% for main_category in main_categories %}
+                <div class="slick-single-layout">
+                    <div class="categrie-product">
+                        <a href="#">
+                            <img class="img-fluid" src="../../static/images/product/categories/elec-1.png"
+                                 alt="product categorie">
+                            <h6 class="cat-title">{{ main_category.name }}</h6>
+                        </a>
+                    </div>
 
-                <!-- End .categrie-product -->
-            </div>
+                    <!-- End .categrie-product -->
+                </div>
             {% endfor %}
         </div>
     </div>
@@ -69,11 +70,13 @@
                             <div class="axil-product product-style-one">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800"
-                                             class="main-img" src="../../static/images/product/electric/product-01.png"
-                                             alt="Product Images">
-                                        <img class="hover-img" src="../../static/images/product/electric/product-08.png"
-                                             alt="Product Images">
+                                        {% if product.product_image %}
+                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800"
+                                                 class="main-img" src="{% static product.product_image.url %}"
+                                                 alt="Product Images">
+                                            <img class="hover-img" src="{% static product.product_image.url %}"
+                                                 alt="Product Images">
+                                        {% endif %}
                                     </a>
                                     <div class="label-block label-right">
                                         {% if product.sale_percentage %}

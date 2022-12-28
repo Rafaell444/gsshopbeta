@@ -3,6 +3,7 @@ from django.db import models
 
 class Category(models.Model):
     name = models.CharField(max_length=255, unique=True)
+    main_category_image = models.ImageField(upload_to='category_images', blank=True, null=True)
 
     class Meta:
         verbose_name = 'Category'

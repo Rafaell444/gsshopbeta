@@ -1,3 +1,4 @@
+{% load static %}
 <!--[if lte IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
@@ -74,9 +75,11 @@
                                 <ul class="nav-menu-list">
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                        <span class="menu-icon"><img
-                                                src="../../static/images/product/categories/cat-01.png"
-                                                alt="Department"></span>
+                                            {% if main_category.main_category_image %}
+                                                <span class="menu-icon"><img
+                                                        src="{% static main_category.main_category_image.url %}"
+                                                        alt="Department"></span>
+                                            {% endif %}
 
                                             <span class="menu-text">{{ main_category.name }}</span>
                                         </a>
@@ -90,7 +93,9 @@
                                                                 {% for sub_sub_category in sub_sub_categories %}
                                                                     {% if sub_sub_category.subcategory == sub_category %}
                                                                         <ul>
-                                                                            <li><a href="#">{{ sub_sub_category.name }}</a></li>
+                                                                            <li>
+                                                                                <a href="#">{{ sub_sub_category.name }}</a>
+                                                                            </li>
                                                                         </ul>
                                                                     {% endif %}
                                                                 {% endfor %}
