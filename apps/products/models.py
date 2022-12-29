@@ -4,7 +4,7 @@ from apps.categories.models import SubSubCategory
 
 class Product(models.Model):
     product_name = models.CharField(max_length=128)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(unique=True, blank=False)
     product_description = models.TextField(max_length=512)
     product_image = models.ImageField(upload_to='product_images', blank=True, null=True)
     category = models.ForeignKey(SubSubCategory, on_delete=models.DO_NOTHING)
@@ -17,7 +17,7 @@ class Product(models.Model):
 
     def save(self, *args, **kwargs):
         if self.sale_percentage > 0:
-            self.sale_price = self.price * (self.sale_percentage / 100)
+            self.sale_price = self.price - (self.price * (self.sale_percentage / 100))
         else:
             self.sale_price = None
         super(Product, self).save(*args, **kwargs)

@@ -16,7 +16,7 @@ def store(request):
         'sub_sub_categories': sub_sub_categories,
         'products': products
     }
-    return render(request, 'store/main.html', context)
+    return render(request, 'store/main_content.html', context)
 
 
 def cart(request):
@@ -28,6 +28,12 @@ def checkout(request):
     context = {}
     return render(request, 'store/checkout.html', context)
 
-class ProductDetail(View):
-    def get(self,request,*args,**kwargs):
-        pass
+
+def ProductDetail(request, slug):
+    product = Product.objects.get(slug=slug)
+
+    context = {
+        "product": product
+    }
+
+    return render(request, "store/single_product.html", context)

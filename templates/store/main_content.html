@@ -1,135 +1,210 @@
+{% extends 'store/main.html' %}
 {% load static %}
-<div class="axil-categorie-area bg-color-white axil-section-gapcommon">
-    <div class="container">
-        <div class="section-title-wrapper">
-            <span class="title-highlighter highlighter-secondary"> <i class="far fa-tags"></i> Categories</span>
-            <h2 class="title">Browse by Category</h2>
-        </div>
-        <div class="categrie-product-activation slick-layout-wrapper--15 axil-slick-arrow  arrow-top-slide">
-            {% for main_category in main_categories %}
-                <div class="slick-single-layout">
-                    <div class="categrie-product">
-                        <a href="#">
-                            <img class="img-fluid" src="../../static/images/product/categories/elec-1.png"
-                                 alt="product categorie">
-                            <h6 class="cat-title">{{ main_category.name }}</h6>
-                        </a>
-                    </div>
+{% block content %}
+    <main class="main-wrapper">
 
-                    <!-- End .categrie-product -->
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="axil-poster-countdown">
-    <div class="container">
-        <div class="poster-countdown-wrap bg-lighter">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6">
-                    <div class="poster-countdown-content">
-                        <div class="section-title-wrapper">
-                            <span class="title-highlighter highlighter-secondary"> <i class="fal fa-headphones-alt"></i> Don’t Miss!!</span>
-                            <h2 class="title">Enhance Your Music Experience</h2>
-                        </div>
-                        <div class="poster-countdown countdown mb--40"></div>
-                        <a href="#" class="axil-btn btn-bg-primary">Check it Out!</a>
-                    </div>
-                </div>
-                <div class="col-xl-7 col-lg-6">
-                    <div class="poster-countdown-thumbnail">
-                        <img src="../../static/images/product/poster/poster-03.png" alt="Poster Product">
-                        <div class="music-singnal">
-                            <div class="item-circle circle-1"></div>
-                            <div class="item-circle circle-2"></div>
-                            <div class="item-circle circle-3"></div>
-                            <div class="item-circle circle-4"></div>
-                            <div class="item-circle circle-5"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="axil-product-area bg-color-white axil-section-gap">
-    <div class="container">
-        <div class="section-title-wrapper">
-            <span class="title-highlighter highlighter-primary"> <i class="fal fa-store"></i> Our Products</span>
-            <h2 class="title">Explore our Products</h2>
-        </div>
-        <div class="explore-product-activation slick-layout-wrapper slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
-            <div class="slick-single-layout">
-                <div class="row row--15">
-
-                    {% for product in products %}
-
-                        <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
-                            <div class="axil-product product-style-one">
-                                <div class="thumbnail">
-                                    <a href="single-product.html">
-                                        {% if product.product_image %}
-                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800"
-                                                 class="main-img" src="{% static product.product_image.url %}"
-                                                 alt="Product Images">
-                                            <img class="hover-img" src="{% static product.product_image.url %}"
-                                                 alt="Product Images">
-                                        {% endif %}
-                                    </a>
-                                    <div class="label-block label-right">
-                                        {% if product.sale_percentage %}
-                                            <div class="product-badget">{{ product.sale_percentage|floatformat }}% Off
+        <!-- Start Slider Area -->
+        <div class="axil-main-slider-area main-slider-style-2 main-slider-style-8">
+            <div class="container">
+                <div class="slider-offset-left">
+                    <div class="row row--20">
+                        <div class="col-lg-9">
+                            <div class="slider-box-wrap">
+                                <div class="slider-activation-one axil-slick-dots">
+                                    <div class="single-slide slick-slide">
+                                        <div class="main-slider-content">
+                                            <span class="subtitle"><i class="fal fa-badge-percent"></i> Mega Deal</span>
+                                            <h1 class="title">Up to 60% off Sale</h1>
+                                            <div class="shop-btn">
+                                                <a href="shop.html" class="axil-btn">Shop Now <i
+                                                        class="fal fa-long-arrow-right"></i></a>
                                             </div>
-                                        {% else %}
-                                            <div class="product-badget" style="visibility: hidden;"></div>
-
-                                        {% endif %}
+                                        </div>
+                                        <div class="main-slider-thumb">
+                                            <img src="../../static/images/product/product-9.png" alt="Product">
+                                        </div>
                                     </div>
-                                    <div class="product-hover-action">
-                                        <ul class="cart-action">
-                                            <li class="quickview"><a href="#" data-bs-toggle="modal"
-                                                                     data-bs-target="#quick-view-modal"><i
-                                                    class="far fa-eye"></i></a></li>
-                                            <li class="select-option">
-                                                <a href="single-product.html">
-                                                    Add to Cart
-                                                </a>
-                                            </li>
-                                            <li class="wishlist"><a href="wishlist.html"><i
-                                                    class="far fa-heart"></i></a>
-                                            </li>
-                                        </ul>
+                                    <div class="single-slide slick-slide">
+                                        <div class="main-slider-content">
+                                            <span class="subtitle"><i class="fal fa-fire"></i> Hot Deal</span>
+                                            <h1 class="title">Up to 60% off Voucher</h1>
+                                            <div class="shop-btn">
+                                                <a href="shop.html" class="axil-btn">Shop Now <i
+                                                        class="fal fa-long-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="main-slider-thumb">
+                                            <img src="../../static/images/product/product-8.png" alt="Product">
+                                        </div>
                                     </div>
-                                </div>
-
-
-                                <div class="product-content">
-                                    <div class="inner">
-
-
-                                        <h5 class="title"><a href="single-product.html">{{ product.product_name }}</a>
-                                        </h5>
-                                        <div class="product-price-variant">
-                                            {% if product.sale_percentage %}
-                                                <span class="price current-price">{{ product.sale_price }}</span>
-
-                                                <span class="price old-price">{{ product.price }}</span>
-                                            {% else %}
-                                                <span class="price current-price">{{ product.price }}</span>
-
-                                                <span class="price old-price"></span>
-                                            {% endif %}
-
+                                    <div class="single-slide slick-slide">
+                                        <div class="main-slider-content">
+                                            <span class="subtitle"><i class="far fa-mobile"></i> Smartphone</span>
+                                            <h1 class="title">Up to 60% off Voucher</h1>
+                                            <div class="shop-btn">
+                                                <a href="shop.html" class="axil-btn">Shop Now <i
+                                                        class="fal fa-long-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="main-slider-thumb">
+                                            <img src="../../static/images/product/product-7.png" alt="Product">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    {% endfor %}
+                        <div class="col-lg-3">
+                            <div class="slider-product-box">
+                                <div class="product-thumb">
+                                    <a href="single-product.html">
+                                        <img src="../../static/images/product/product-41.png" alt="Product">
+                                    </a>
+                                </div>
+                                <h6 class="title"><a href="single-product.html">Stylish Leather Bag</a></h6>
+                                <span class="price">$29.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="axil-categorie-area bg-color-white axil-section-gapcommon">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="title-highlighter highlighter-secondary"> <i class="far fa-tags"></i> Categories</span>
+                <h2 class="title">Browse by Category</h2>
+            </div>
+            <div class="categrie-product-activation slick-layout-wrapper--15 axil-slick-arrow  arrow-top-slide">
+                {% for main_category in main_categories %}
+                    <div class="slick-single-layout">
+                        <div class="categrie-product">
+                            <a href="">
+                                <img class="img-fluid" src="../../static/images/product/categories/elec-1.png"
+                                     alt="product categorie">
+                                <h6 class="cat-title">{{ main_category.name }}</h6>
+                            </a>
+                        </div>
+
+                        <!-- End .categrie-product -->
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <div class="axil-poster-countdown">
+        <div class="container">
+            <div class="poster-countdown-wrap bg-lighter">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <div class="poster-countdown-content">
+                            <div class="section-title-wrapper">
+                                <span class="title-highlighter highlighter-secondary"> <i
+                                        class="fal fa-headphones-alt"></i> Don’t Miss!!</span>
+                                <h2 class="title">Enhance Your Music Experience</h2>
+                            </div>
+                            <div class="poster-countdown countdown mb--40"></div>
+                            <a href="#" class="axil-btn btn-bg-primary">Check it Out!</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="poster-countdown-thumbnail">
+                            <img src="../../static/images/product/poster/poster-03.png" alt="Poster Product">
+                            <div class="music-singnal">
+                                <div class="item-circle circle-1"></div>
+                                <div class="item-circle circle-2"></div>
+                                <div class="item-circle circle-3"></div>
+                                <div class="item-circle circle-4"></div>
+                                <div class="item-circle circle-5"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+
+    <div class="axil-product-area bg-color-white axil-section-gap">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <span class="title-highlighter highlighter-primary"> <i class="fal fa-store"></i> Our Products</span>
+                <h2 class="title">Explore our Products</h2>
+            </div>
+            <div class="explore-product-activation slick-layout-wrapper slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
+                <div class="slick-single-layout">
+                    <div class="row row--15">
+
+                        {% for product in products %}
+
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
+                                <div class="axil-product product-style-one">
+                                    <div class="thumbnail">
+                                        <a href="single-product.html">
+                                            {% if product.product_image %}
+                                                <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800"
+                                                     class="main-img" src="{% static product.product_image.url %}"
+                                                     alt="Product Images">
+                                                <img class="hover-img" src="{% static product.product_image.url %}"
+                                                     alt="Product Images">
+                                            {% endif %}
+                                        </a>
+                                        <div class="label-block label-right">
+                                            {% if product.sale_percentage %}
+                                                <div class="product-badget">{{ product.sale_percentage|floatformat }}%
+                                                    Off
+                                                </div>
+                                            {% else %}
+                                                <div class="product-badget" style="visibility: hidden;"></div>
+
+                                            {% endif %}
+                                        </div>
+                                        <div class="product-hover-action">
+                                            <ul class="cart-action">
+                                                <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                                         data-bs-target="#quick-view-modal"><i
+                                                        class="far fa-eye"></i></a></li>
+                                                <li class="select-option">
+                                                    <a href="single-product.html">
+                                                        Add to Cart
+                                                    </a>
+                                                </li>
+                                                <li class="wishlist"><a href="wishlist.html"><i
+                                                        class="far fa-heart"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="product-content">
+                                        <div class="inner">
+
+
+                                            <h5 class="title"><a
+                                                    href="single-product.html">{{ product.product_name }}</a>
+                                            </h5>
+                                            <div class="product-price-variant">
+                                                {% if product.sale_percentage %}
+                                                    <span class="price current-price">{{ product.sale_price }}</span>
+
+                                                    <span class="price old-price">{{ product.price }}</span>
+                                                {% else %}
+                                                    <span class="price current-price">{{ product.price }}</span>
+
+                                                    <span class="price old-price"></span>
+                                                {% endif %}
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
