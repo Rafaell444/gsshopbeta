@@ -1,5 +1,6 @@
 {% extends 'store/main.html' %}
 {% block content %}
+    {% load static %}
 
     <!doctype html>
     <div class="no-js" lang="en">
@@ -29,48 +30,41 @@
                                             <div class="single-product-thumbnail-wrap zoom-gallery">
                                                 <div class="single-product-thumbnail product-large-thumbnail-3 axil-product">
                                                     <div class="thumbnail">
-                                                        <a href="assets/images/product/product-big-01.png"
+                                                        <a href="/static/images/product/product-big-01.png"
                                                            class="popup-zoom">
-                                                            <img src="assets/images/product/product-big-01.png"
-                                                                 alt="Product Images">
-                                                        </a>
-                                                    </div>
-                                                    <div class="thumbnail">
-                                                        <a href="assets/images/product/product-big-02.png"
-                                                           class="popup-zoom">
-                                                            <img src="assets/images/product/product-big-02.png"
-                                                                 alt="Product Images">
-                                                        </a>
-                                                    </div>
-                                                    <div class="thumbnail">
-                                                        <a href="assets/images/product/product-big-03.png"
-                                                           class="popup-zoom">
-                                                            <img src="assets/images/product/product-big-03.png"
-                                                                 alt="Product Images">
-                                                        </a>
-                                                    </div>
-                                                    <div class="thumbnail">
-                                                        <a href="assets/images/product/product-big-02.png"
-                                                           class="popup-zoom">
-                                                            <img src="assets/images/product/product-big-02.png"
-                                                                 alt="Product Images">
+                                                            {% if product.product_thumbnail %}
+                                                                <img src="{% static product.product_thumbnail.url %}"
+                                                                     alt="">
+                                                            {% endif %}
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div class="label-block">
                                                     {% if product.sale_percentage %}
-                                                        <div class="product-badget">{{ product.sale_percentage }}% OFF
+                                                        <div class="product-badget">{{ product.sale_percentage|floatformat }}%
+                                                            OFF
                                                         </div>
                                                     {% else %}
                                                         <div class="product-badget" style="visibility: hidden"></div>
                                                     {% endif %}
-
                                                 </div>
                                                 <div class="product-quick-view position-view">
-                                                    <a href="assets/images/product/product-big-01.png"
-                                                       class="popup-zoom">
+                                                    {% for images in product.product_images.all %}
+                                                        <a href="{% static images %}"
+                                                           class="popup-zoom">
                                                         <i class="far fa-search-plus"></i>
+                                                    {% endfor %}
                                                     </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2 order-lg-1">
+                                            <div class="product-small-thumb-3 small-thumb-wrapper">
+                                                <div class="small-thumb-img">
+                                                    {% for images in product.product_images.all %}
+                                                        <img src="{% static images %}"
+                                                             alt="thumb image">
+                                                    {% endfor %}
                                                 </div>
                                             </div>
                                         </div>
@@ -84,9 +78,9 @@
                                             <h2 class="product-title">{{ product.product_name }}</h2>
                                             {% if product.sale_percentage %}
                                                 <span class="price old-price"
-                                                      style="text-decoration: line-through;">{{ product.sale_price }}&nbsp;GEL</span>
+                                                      style="text-decoration: line-through;">{{ product.price }}&nbsp;GEL</span>
 
-                                                <span class="price-amount">{{ product.price }}&nbsp;GEL</span>
+                                                <span class="price-amount">{{ product.sale_price }}&nbsp;GEL</span>
                                             {% else %}
                                                 <span class="price-amount">{{ product.price }}&nbsp;GEL</span>
                                             {% endif %}

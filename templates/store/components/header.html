@@ -12,11 +12,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-sm-3 col-5">
                     <div class="header-brand">
-                        <a href="index-2.html" class="logo logo-dark">
-                            <img src="../../static/images/logo/logo.png" alt="Site Logo">
+                        <a href="{% url 'main' %}" class="logo logo-dark">
+                            <img src="../../../static/images/logo/logo.png" alt="Site Logo">
                         </a>
                         <a href="index-2.html" class="logo logo-light">
-                            <img src="../../static/images/logo/logo-light.png" alt="Site Logo">
+                            <img src="../../../static/images/logo/logo-light.png" alt="Site Logo">
                         </a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                     <aside class="header-department">
                         <button class="header-department-text department-title">
                             <span class="icon"><i class="fal fa-bars"></i></span>
-                            <span class="text">Categories</span>
+                            <a href="{% url 'main_categories' %}"><span class="text">Categories</span></a>
                         </button>
                         <nav class="department-nav-menu">
                             {% for main_category in main_categories %}
@@ -108,22 +108,22 @@
                                                     <div class="product-list">
                                                         <div class="item-product">
                                                             <a href="#"><img
-                                                                    src="/static/images/product/product-feature1.png"
+                                                                    src="/images/product/product-feature1.png"
                                                                     alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
                                                             <a href="#"><img
-                                                                    src="/static/images/product/product-feature2.png"
+                                                                    src="/images/product/product-feature2.png"
                                                                     alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
                                                             <a href="#"><img
-                                                                    src="/static/images/product/product-feature3.png"
+                                                                    src="/images/product/product-feature3.png"
                                                                     alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
                                                             <a href="#"><img
-                                                                    src="/static/images/product/product-feature4.png"
+                                                                    src="/images/product/product-feature4.png"
                                                                     alt="Featured Product"></a>
                                                         </div>
                                                     </div>
@@ -145,7 +145,7 @@
                         <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                         <div class="mobile-nav-brand">
                             <a href="index-2.html" class="logo">
-                                <img src="../../static/images/logo/logo.png" alt="Site Logo">
+                                <img src="../../../static/images/logo/logo.png" alt="Site Logo">
                             </a>
                         </div>
                         <ul class="mainmenu">
@@ -180,8 +180,8 @@
                                 <a href="#">Pages</a>
                                 <ul class="axil-submenu">
                                     <li><a href="wishlist.html">Wishlist</a></li>
-                                    <li><a href="cart.html">Cart</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
+                                    <li><a href="../cart.html">Cart</a></li>
+                                    <li><a href="../checkout.html">Checkout</a></li>
                                     <li><a href="my-account.html">Account</a></li>
                                     <li><a href="sign-up.html">Sign Up</a></li>
                                     <li><a href="sign-in.html">Sign In</a></li>
@@ -276,23 +276,23 @@
 <!-- JS
 ============================================ -->
 <!-- Modernizer JS -->
-<script src="../../static/js/vendor/modernizr.min.js"></script>
+<script src="../../../static/js/vendor/modernizr.min.js"></script>
 <!-- jQuery JS -->
-<script src="../../static/js/vendor/jquery.js"></script>
+<script src="../../../static/js/vendor/jquery.js"></script>
 <!-- Bootstrap JS -->
-<script src="../../static/js/vendor/popper.min.js"></script>
-<script src="../../static/js/vendor/bootstrap.min.js"></script>
-<script src="../../static/js/vendor/slick.min.js"></script>
-<script src="../../static/js/vendor/js.cookie.js"></script>
+<script src="../../../static/js/vendor/popper.min.js"></script>
+<script src="../../../static/js/vendor/bootstrap.min.js"></script>
+<script src="../../../static/js/vendor/slick.min.js"></script>
+<script src="../../../static/js/vendor/js.cookie.js"></script>
 <!-- <script src="assets/js/vendor/jquery.style.switcher.js"></script> -->
-<script src="../../static/js/vendor/jquery-ui.min.js"></script>
-<script src="../../static/js/vendor/jquery.countdown.min.js"></script>
-<script src="../../static/js/vendor/sal.js"></script>
-<script src="../../static/js/vendor/jquery.magnific-popup.min.js"></script>
-<script src="../../static/js/vendor/imagesloaded.pkgd.min.js"></script>
-<script src="../../static/js/vendor/isotope.pkgd.min.js"></script>
-<script src="../../static/js/vendor/counterup.js"></script>
-<script src="../../static/js/vendor/waypoints.min.js"></script>
+<script src="../../../static/js/vendor/jquery-ui.min.js"></script>
+<script src="../../../static/js/vendor/jquery.countdown.min.js"></script>
+<script src="../../../static/js/vendor/sal.js"></script>
+<script src="../../../static/js/vendor/jquery.magnific-popup.min.js"></script>
+<script src="../../../static/js/vendor/imagesloaded.pkgd.min.js"></script>
+<script src="../../../static/js/vendor/isotope.pkgd.min.js"></script>
+<script src="../../../static/js/vendor/counterup.js"></script>
+<script src="../../../static/js/vendor/waypoints.min.js"></script>
 
 <!-- Main JS -->
-<script src="../../static/js/main.js"></script>
+<script src="../../../static/js/main.js"></script>
