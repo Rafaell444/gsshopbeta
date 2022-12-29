@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from django.views import View
+
 from apps.categories.models import Category, SubCategory, SubSubCategory
 from apps.products.models import Product
 
@@ -25,3 +27,7 @@ def cart(request):
 def checkout(request):
     context = {}
     return render(request, 'store/checkout.html', context)
+
+class ProductDetail(View):
+    def get(self,request,*args,**kwargs):
+        pass
