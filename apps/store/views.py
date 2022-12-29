@@ -30,10 +30,10 @@ def checkout(request):
 
 
 def ProductDetail(request, slug):
-    product = Product.objects.get(slug=slug)
+    products = Product.objects.filter(slug=slug)
 
     context = {
-        "product": product
+        "products": products
     }
 
     return render(request, "store/single_product.html", context)
