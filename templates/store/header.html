@@ -94,7 +94,7 @@
                                                                     {% if sub_sub_category.subcategory == sub_category %}
                                                                         <ul>
                                                                             <li>
-                                                                                <a href="#">{{ sub_sub_category.name }}</a>
+                                                                                <a href="{% url 'product_by_category' name=sub_sub_category.name %}">{{ sub_sub_category.name }}</a>
                                                                             </li>
                                                                         </ul>
                                                                     {% endif %}
@@ -268,7 +268,6 @@
     <!-- End Mainmenu Area  -->
 </header>
 <!-- akedan -->
-
 
 
 <!-- Start Footer Area  -->

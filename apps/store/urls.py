@@ -1,10 +1,11 @@
 from django.urls import path
 
-from . import views
+from apps.store.views import SubSubCategoryProductView, store, checkout, ProductDetail
 
 urlpatterns = [
-    path('', views.store, name="cart"),
-    path('product/<slug:slug>/', views.ProductDetail, name="product"),
-    path('checkout/', views.checkout, name="checkout"),
+    path('product/<slug:slug>/', ProductDetail, name="product"),
+    path('checkout/', checkout, name="checkout"),
+    path('', store, name="main"),
+    path('products/<str:name>/', SubSubCategoryProductView.as_view(), name="product_by_category"),
 
 ]

@@ -1,0 +1,85 @@
+{% extends 'store/main.html' %}
+{% block content %}
+    {% load static %}
+        <div class="axil-product-area bg-color-white axil-section-gap">
+        <div class="container">
+        <div class="section-title-wrapper">
+            <span class="title-highlighter highlighter-primary"> <i class="fal fa-store"></i>{{ category.subcategory.name }}</span>
+            <h2 class="title">Explore {{ category }}</h2>
+        </div>
+<div class="explore-product-activation slick-layout-wrapper slick-layout-wrapper--15 axil-slick-arrow arrow-top-slide">
+    <div class="slick-single-layout">
+        <div class="row row--15">
+
+            {% for product in products_by_category %}
+
+                <div class="col-xl-3 col-lg-4 col-sm-6 col-12 mb--30">
+                    <div class="axil-product product-style-one">
+                        <div class="thumbnail">
+                            <a href="single-product.html">
+                                {% if product.product_image %}
+                                    <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800"
+                                         class="main-img" src="{% static product.product_image.url %}"
+                                         alt="Product Images">
+                                    <img class="hover-img" src="{% static product.product_image.url %}"
+                                         alt="Product Images">
+                                {% endif %}
+                            </a>
+                            <div class="label-block label-right">
+                                {% if product.sale_percentage %}
+                                    <div class="product-badget">{{ product.sale_percentage|floatformat }}%
+                                        Off
+                                    </div>
+                                {% else %}
+                                    <div class="product-badget" style="visibility: hidden;"></div>
+
+                                {% endif %}
+                            </div>
+                            <div class="product-hover-action">
+                                <ul class="cart-action">
+                                    <li class="quickview"><a href="#" data-bs-toggle="modal"
+                                                             data-bs-target="#quick-view-modal"><i
+                                            class="far fa-eye"></i></a></li>
+                                    <li class="select-option">
+                                        <a href="single-product.html">
+                                            Add to Cart
+                                        </a>
+                                    </li>
+                                    <li class="wishlist"><a href="wishlist.html"><i
+                                            class="far fa-heart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="product-content">
+                            <div class="inner">
+
+
+                                <h5 class="title"><a
+                                        href="single-product.html">{{ product.product_name }}</a>
+                                </h5>
+                                <div class="product-price-variant">
+                                    {% if product.sale_percentage %}
+                                        <span class="price current-price">{{ product.sale_price }}</span>
+
+                                        <span class="price old-price">{{ product.price }}</span>
+                                    {% else %}
+                                        <span class="price current-price">{{ product.price }}</span>
+
+                                        <span class="price old-price"></span>
+                                    {% endif %}
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+</div>
+</div>
+{% endblock content %}

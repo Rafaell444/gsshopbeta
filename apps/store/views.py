@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import View
 
 from apps.categories.models import Category, SubCategory, SubSubCategory
@@ -37,3 +37,17 @@ def ProductDetail(request, slug):
     }
 
     return render(request, "store/single_product.html", context)
+
+
+class SubSubCategoryProductView(View):
+    def get(self, request, *args, **kwargs):
+        category_name = self.kwargs['name']
+        category = SubSubCategory.objects.filter(name=category_name).first()
+        if category is None:
+            return redirect('main')
+        products_by_category = Product.objects.filter(category_id=category.id)
+        context = {
+            'products_by_category': products_by_category,
+            'category': category,
+        }
+        return render(request, 'store/products_by_category.html', context)
