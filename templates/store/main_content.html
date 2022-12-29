@@ -183,7 +183,7 @@
 
 
                                             <h5 class="title"><a
-                                                    href="single-product.html">{{ product.product_name }}</a>
+                                                    href="{% url 'product' slug=product.slug %}">{{ product.product_name }}</a>
                                             </h5>
                                             <div class="product-price-variant">
                                                 {% if product.sale_percentage %}

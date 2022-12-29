@@ -25,9 +25,11 @@ def cart(request):
     return render(request, 'store/cart.html', context)
 
 
-def checkout(request):
-    context = {}
-    return render(request, 'store/checkout.html', context)
+def shop(request):
+    main_categories = Category.objects.all()
+    products = Product.objects.all()
+    context = {'main_categories': main_categories, 'products': products}
+    return render(request, 'store/shop-sidebar.html', context)
 
 
 def ProductDetail(request, slug):
