@@ -25,23 +25,33 @@ def cart(request):
     return render(request, 'store/cart.html', context)
 
 
-def shop(request):
-    main_categories = Category.objects.all()
-    products = Product.objects.all()
-    context = {'main_categories': main_categories, 'products': products}
-    return render(request, 'store/shop-sidebar.html', context)
+class MainShopView(View):
+    def get(self, request, *args, **kwargs):
+        main_categories = Category.objects.all()
+        sub_categories = SubCategory.objects.all()
+        sub_sub_categories = SubSubCategory.objects.all()
+        products = Product.objects.all()
+        context = {
+            'main_categories': main_categories,
+            'sub_categories': sub_categories,
+            'sub_sub_categories': sub_sub_categories,
+            'products': products,
+        }
+        return render(request, 'store/shop-sidebar.html', context)
 
 
-def ProductDetail(request, slug):
-    products = Product.objects.filter(slug=slug)
-    product = products.filter(slug=slug).first()
-    images = Picture.objects.filter(images__product_name=product.product_name)
-    context = {
-        "products": products,
-        'images': images
-    }
+class ProductDetail(View):
+    def get(self, request, *args, **kwargs):
+        slug = self.kwargs['slug']
+        products = Product.objects.filter(slug=slug)
+        product = products.filter(slug=slug).first()
+        images = Picture.objects.filter(images__product_name=product.product_name)
+        context = {
+            "products": products,
+            'images': images
+        }
 
-    return render(request, "store/single_product.html", context)
+        return render(request, "store/single_product.html", context)
 
 
 class SubSubCategoryProductView(View):
